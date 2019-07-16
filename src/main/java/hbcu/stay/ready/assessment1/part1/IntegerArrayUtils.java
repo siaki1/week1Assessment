@@ -9,7 +9,10 @@ public class IntegerArrayUtils {
      * @return the sum of `intArray`
      */
     public static Integer getSum(Integer[] intArray) {
-        return null;
+        if (intArray == 0)
+        return intArray[n];
+    else
+        return a[n] + sumOfArray(intArray, intArray-1);
     }
 
     /**

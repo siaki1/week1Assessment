@@ -12,12 +12,18 @@ public class IntegerUtils {
         return null;
     }
 
-    /**
-     * @param val integer value input by client
-     * @return integer with identical digits in the reverse order
-     */
     public static Integer reverseDigits(Integer val) {
-        return null;
+
+        String number = Integer.toString();
+
+        String reverseDigit;
+
+        for(int i = number.length()-1; i >= 0; i--) {
+
+            reverseDigit += number.charAt(i);
+        }
+        return Integer.parseInt(reverseDigit);
+
     }
 
     /**
@@ -25,7 +31,13 @@ public class IntegerUtils {
      * @return true if the integer is even and false if it is not even.
      */
     public static Boolean isEven(Integer val) {
-        return null;
-    }
-}
+       boolean a = val % 2 == 0;
 
+       if (a){
+           return true;
+    }
+        return false;
+    }
+
+
+          }

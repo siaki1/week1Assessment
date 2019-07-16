@@ -3,7 +3,7 @@ package hbcu.stay.ready.assessment1.part2;
 /**
  * Created by leon on 2/16/18.
  */
-public class StringUtils {
+public class  StringUtils {
 
     /**
      * @param sentence a string containing words delimited by spaces, representative of a sentence
